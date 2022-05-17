@@ -1,0 +1,16 @@
+name: GodsWar
+version: '${project.version}'
+main: godswar.godswar.GodsWar
+api-version: 1.18
+authors: [ magic3910 ]
+description: GodsWar
+
+commands:
+  t:
+    description: 신들의 전쟁
+    usage: /<command>
+  x:
+    description: 신들의 전쟁 타겟 설정
+    usage: /<command>
+  도박:
+    description: 도박
