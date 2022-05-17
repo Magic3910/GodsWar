@@ -1,0 +1,2 @@
+# GodsWar
+Minecraft GodsWar Plugin
