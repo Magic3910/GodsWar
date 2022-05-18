@@ -1,8 +1,7 @@
 package godswar.godswar.DB;
 
 import java.util.HashMap;
-
-import com.magical.Ability.Ability;
+import godswar.godswar.Ability.Ability;
 import org.bukkit.Location;
 
 public class GameData
