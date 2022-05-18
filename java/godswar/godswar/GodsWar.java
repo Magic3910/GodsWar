@@ -1,5 +1,6 @@
 package godswar.godswar;
 
+import godswar.godswar.Manager.CommandModule.Blacklist;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -60,7 +61,7 @@ public final class GodsWar extends JavaPlugin {
             br=new BufferedReader(isr);
             String line;
             while((line=br.readLine())!=null){
-                com.magical.Manager.CommandModule.Blacklist.Blacklist.add(Integer.parseInt(line));
+                Blacklist.Blacklist.add(Integer.parseInt(line));
             }
         }catch(FileNotFoundException e) {
             log.info("블랙리스트 파일이 존재하지 않습니다. 재생성합니다.");
