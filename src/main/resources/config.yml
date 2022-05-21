@@ -1,0 +1,36 @@
+# 기타 설정을 제외한 나머지는 게임이 진행되고 있는 중에만 적용됩니다. #
+# 제시된 조건을 게임 내에 적용하고 싶으시다면, true, 그렇지 않으시다면, false를 입력하시기 바랍니다. #
+# true와 false의 철자를 정확히 구분하시기 바랍니다. #
+# 난이도를 제외한 나머지는 게임 내 GUI 세팅으로 바꿀 수 있습니다. #
+#Clear Inventory: 게임 시작 시 인벤토리를 클리어합니다.#
+#Give Skyblock Item: 게임 시작 시 스카이블록 아이템을 지급합니다.#
+#Remove Entity: 게임 시작 시 엔티티(몬스터, 동물)들을 지웁니다.#
+#Ignore Bed: 침대를 무시합니다.#
+#Autosave: 서버 오토세이브를 제어합니다. #
+#Spawn Animal: 동물 스폰을 제어합니다. #
+#Spawn Monster: 몬스터 스폰을 제어합니다. #
+#Difficulty: 난이도를 설정합니다. (0: 평화 / 1: 쉬옴 / 2: 보통 / 3:어려움 / 기본값: 쉬움) #
+#Fast Start: /t start 후 4.5초 만에 준비가 끝납니다. #
+#Use Gambling: /t con을 통한 도박을 허용합니다.#
+#Protect Diamond from Explosion: 다이아 블록만을 폭발에서 지킬 수 있습니다.#
+#Forbid Break Diamond with Diamond Pickaxe: 다이아 블록을 다이아 곡괭이로 캐면 무효로 합니다.#
+#Scoreboard Information: 스코어보드로 쿨타임 상태를 알려줍니다.#
+
+### 게임 관련 설정 ###
+Clear Inventory: true
+Give Skyblock Item: false
+Remove Entity: true
+Ignore Bed: true
+
+### 월드 관련 설정 ###
+Autosave: true
+Spawn Animal: false
+Spawn Monster: false
+Difficulty: 1
+
+### 기타 설정 ###
+Fast Start: true
+Use Gambling: true
+Protect Diamond from Explosion: true
+Forbid Break Diamond with Diamond Pickaxe: true
+Scoreboard Information: true
