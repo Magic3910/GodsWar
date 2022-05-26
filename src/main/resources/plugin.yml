@@ -1,0 +1,16 @@
+name: GodsWar
+version: 5.2.3
+main: godswar.godswar.Theomachy.Theomachy
+api-version: 1.16
+
+commands:
+  t:
+    description: 신들의전쟁
+    permission:
+    usage: /<command>
+  x:
+    description: 신들의전쟁 타겟 등록
+    permission:
+    usage: /<command>
+  도박:
+    description: 신들의전쟁 도박
